@@ -3,7 +3,7 @@
 angular.module('mean.system').controller('IndexController', ['$scope', 'Global',
   function($scope, Global) {
     $scope.global = Global;
-    $scope.sites1 = {
+    $scope.sites = {
       'makeapoint': {
         'name': 'makeapoint',
         'text': 'Makeapoint is a platform to craft and fine-tune ideas and messages providing a graphical experience which brough an offline methodlogy online',
@@ -41,6 +41,10 @@ angular.module('mean.system').controller('IndexController', ['$scope', 'Global',
         'link': 'http://www.linnovate.net',
         'image': 'http://cdn.designbyhumans.com/pictures/blog/09-2013/pop-culture-cats/Pop_Culture_Cats_Hamilton_Hipster.jpg'
       }
+    };
+
+    $scope.getAlert = function () {
+      alert();
     };
 
     $scope.$watch(function() {

@@ -44,3 +44,24 @@ footer p {
 .featuredpic img {
   width: 510px;
 }
+.top-banner {
+  background: url('/meanStarter/assets/img/banner-1.jpg');
+  height: 250px;
+
+}
+.upload-section{
+  position: absolute;
+  width: 300px;
+  top: 200px;
+  left: 200px;
+}
+.navbar-top{
+  padding: 0 15px;
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+.anchor-btn{
+  border:1px solid#c5c5c5 ;
+  margin-right: 20px;
+}

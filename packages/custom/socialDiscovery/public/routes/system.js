@@ -10,7 +10,7 @@ angular.module('mean.meanStarter').config(['$meanStateProvider', '$urlRouterProv
     $meanStateProvider
       .state('home', {
         url: '/',
-        template: "<h1>hello</h1>"
+        templateUrl: 'meanStarter/views/system/index.html'
       });
   }
 ]).config(['$locationProvider',
